@@ -172,7 +172,6 @@
 		font-size: 1.25em;
 		margin-top: -0.5em;
 		line-height: 1.5em;
-		text-align: left;
 	}
 
 	header h3 + p {
@@ -199,6 +198,7 @@
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
+			text-align: left;
 		}
 
 /* Form */
