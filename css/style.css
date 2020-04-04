@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("http://fonts.useso.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+/*@import url("http://fonts.useso.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");*/
 
 
 /* Basic */
@@ -30,7 +30,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #1277E0 !important;
 		}
 
 	strong, b {
@@ -44,6 +44,7 @@
 
 	p {
 		margin: 0 0 2.25em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -139,6 +140,10 @@
 			padding: 1em 1.5em;
 		}
 
+	.align-justify {
+		text-align: justify;
+	}
+
 	.align-left {
 		text-align: left;
 	}
@@ -184,7 +189,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #1277E0;
 		font-size: 3.5em;
 	}
 
@@ -248,7 +253,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #1277E0;
 		}
 
 	.select-wrapper {
@@ -359,7 +364,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #1277E0;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -538,7 +543,7 @@
 				margin: 0 0 1.6875em 0;
 				padding: 0.35em 0 0 3.5em;
 				position: relative;
-				width: 48%;
+				width: 100%;
 			}
 
 				ul.feature-icons li:before {
@@ -551,7 +556,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #1277E0;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -840,7 +845,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #1277E0;
 			color: #ffffff !important;
 		}
 
@@ -910,8 +915,8 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
-		color: #d1f1e9;
+		background: #1277E0;
+		color: #98D2FF;
 		height: 100%;
 		position: fixed;
 		text-align: center;
@@ -1004,7 +1009,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #1277E0 !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -1035,7 +1040,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/la.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
