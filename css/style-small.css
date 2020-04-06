@@ -128,3 +128,8 @@
 			font-size: 14px;
 			width: 44px;
 		}
+
+	#main > section {
+		border-top: solid 6px #e4e4e4;
+		background-color: #fff;
+	}
